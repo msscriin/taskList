@@ -24,6 +24,8 @@
                     <li>@Html.ActionLink("Домашняя страница", "Index", "Home")</li>
                     <li>@Html.ActionLink("О программе", "About", "Home")</li>
                     <li>@Html.ActionLink("Контакт", "Contact", "Home")</li>
+                    <li>@Html.RouteLink("Тестовая страница", "Admins", new { action = "Test" })</li>
+                    <li>@Html.RouteLink("Тестовая страница login", "Admins", new { action = "Login" })</li>
                 </ul>
             </div>
         </div>
